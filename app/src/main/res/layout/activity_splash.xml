@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorA">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="175dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="244dp"
+        android:contentDescription="TODO"
+        android:foregroundGravity="center"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/tasksText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tasksText"
+        android:layout_width="369dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="276dp"
+        android:fontFamily="@font/bigshot_one"
+        android:gravity="center"
+        android:text="@string/to_do_list_app_by_falguni"
+        android:textColor="@color/colorPrimary"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

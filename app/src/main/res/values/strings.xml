@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Do It</string>
+    <string name="save">Add Task</string>
+    <string name="new_task">New Task</string>
+    <string name="tasks">Tasks to be done ! </string>
+    <string name="to_do_list_app_by_falguni">To Do List App </string>
+</resources>
